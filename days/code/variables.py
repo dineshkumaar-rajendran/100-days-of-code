@@ -1,2 +1,8 @@
-class VVariables:
-  x =  'Dinesh' #is a local variable
+def function_v():
+    y = "kumaar"  # local variable
+    print(y)
+    print(x)
+
+
+x = "Dinesh"  # global variable
+function_v()
